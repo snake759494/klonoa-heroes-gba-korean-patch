@@ -1,0 +1,90 @@
+SEARCH at 904892c
+[SEARCH]
+  OK   chapter title in EWRAM -> ko 히카리사쿠라를　되찾아라!
+  OK   area name in IWRAM -> ko 브리갈
+  OK   prefix-only match rejected 0x2001a34
+  OK   boss name -> ko 간츠
+  OK   random ROM pointer unchanged 
+  OK   small int unchanged 
+[prologue hooks]
+  OK   hook 80252d8 frame sp delta 30
+  OK   hook 80252d8 text remapped 모험　회상\n잔다
+  OK   hook 80252d8 args kept 
+  OK   hook 805712c frame sp delta 2c
+  OK   hook 805712c text remapped 모험　회상\n잔다
+  OK   hook 805712c args kept 
+  OK   hook 802569c frame sp delta 34
+  OK   hook 802569c text remapped 모험　회상\n잔다
+  OK   hook 802569c args kept 
+  OK   hook 8025470 frame sp delta 34
+  OK   hook 8025470 text remapped 모험　회상\n잔다
+  OK   hook 8025470 args kept 
+[strlen / lines]
+  OK   strlen of tutorial title = encoded Korean width 7
+  OK   line count (untranslated) 4
+[format]
+  OK   format template+name <FFFC>が상대는　간츠!　싸우겠나?<FFF6>
+  OK   tutorial 36 line count equals translated newline count 31
+  OK   tutorial 36 max line codes <= 20 lines=31 max=20
+  OK   all tutorial lines <= 20 codes (20, 36, 31)
+done: 24 ok, 0 fail
+[relocated title cards: game's own BPE decoder]
+  OK   card 1 decodes with game routine size 1736
+  OK   card 20 decodes with game routine size 2632
+  OK   card 42 decodes with game routine size 3112
+  OK   card 49 decodes with game routine size 2280
+done: 28 ok, 0 fail
+[encyclopedia]
+  OK   encyclopedia 96 names+descriptions remapped missing 0
+  OK   encyclopedia name <= 21 codes 13
+  OK   encyclopedia description lines <= 17 codes 17
+done: 31 ok, 0 fail
+[native compact cells and line extraction]
+  OK   one code per Hangul glyph 
+  OK   line extractor translates before slicing 0 모험　회상
+  OK   line extractor buffer guards 0 
+  OK   line extractor translates before slicing 1 잔다
+  OK   line extractor buffer guards 1 
+  OK   ending original decoder 24 
+  OK   ending CT bounds 24 
+  OK   ending surrounding art 24 
+  OK   ending native Korean glyphs 24 
+  OK   ending original decoder 25 
+  OK   ending CT bounds 25 
+  OK   ending surrounding art 25 
+  OK   ending native Korean glyphs 25 
+done: 44 ok, 0 fail
+[all relocated area labels: game BPE decoder]
+  OK   58 area labels decode with original game routine []
+done: 45 ok, 0 fail
+[inventory source pointers and nested image containers]
+  OK   inventory source relocated 40 정리할　소지품을\n골라　주세요
+  OK   inventory source no Japanese 40 
+  OK   inventory source relocated 41 버릴　무기를　골라　주세요\n가진　수\n최대　소지　수
+  OK   inventory source no Japanese 41 
+  OK   inventory source relocated 42 버릴　방어구를　골라　주세요\n가진　수\n최대　소지　수
+  OK   inventory source no Japanese 42 
+  OK   inventory source relocated 43 버릴　것을　골라　주세요\n가진　수\n최대　소지　수
+  OK   inventory source no Japanese 43 
+  OK   inventory source relocated 44 을(를)\n버려도　됩니까?
+  OK   inventory source no Japanese 44 
+  OK   inventory source relocated 45 아이템을　골라　주세요\n가진　수\n최대　소지　수
+  OK   inventory source no Japanese 45 
+  OK   inventory source relocated 46 을(를)\n사용합니까?　버립니까?
+  OK   inventory source no Japanese 46 
+  OK   inventory source relocated 47 을(를)\n사용합니까?
+  OK   inventory source no Japanese 47 
+  OK   inventory source relocated 48 을(를)\n버립니까?
+  OK   inventory source no Japanese 48 
+  OK   effect sequence 37ed8 
+  OK   effect sequence 37eea 
+  OK   effect sequence 37ef8 
+  OK   effect sequence 37f04 
+  OK   effect sequence 37f16 
+  OK   effect sequence 37f2c 
+  OK   nested Pf original decoder 9 
+  OK   nested CT bounds 9/1 
+  OK   nested Pf original decoder 10 
+  OK   nested CT bounds 10/1 
+  OK   nested CT bounds 10/3 
+done: 74 ok, 0 fail

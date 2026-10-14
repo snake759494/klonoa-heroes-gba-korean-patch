@@ -1,0 +1,8 @@
+scenario messages: 263
+dialogue limit: 22 cells x 3 lines
+maximum emitted line: 22 cells
+maximum emitted page: 3 lines
+over-width lines: 0
+over-height pages: 0
+layout/control warnings: 0
+result: PASS (static scenario layout only)

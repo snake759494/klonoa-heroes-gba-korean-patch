@@ -1,0 +1,3 @@
+cb3ff23fc56440efa97321a2cb93a87aacf05ae4214527972af3ce0f29834e63  Klonoa Heroes - Densetsu no Star Medal (Japan).gba
+149bdff2e8a97204f5bb0f63543a9326696f5f12003b69ca60c02f875c2ff03d  Klonoa Heroes - Densetsu no Star Medal (Korean).gba
+a24131670e05c518a8ddfe278eb8c834448cbb635d8d453455ed5d9a2e5e362e  Klonoa_Heroes_KR.xdelta

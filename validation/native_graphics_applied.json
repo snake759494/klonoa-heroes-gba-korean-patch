@@ -1,0 +1,992 @@
+[
+  {
+    "kind": "ending",
+    "id": 24,
+    "text": "이야기 끝",
+    "address": 17422072,
+    "tiles": 138
+  },
+  {
+    "kind": "ending",
+    "id": 25,
+    "text": "모든 모험 끝",
+    "address": 17427976,
+    "tiles": 126
+  },
+  {
+    "kind": "house_menu",
+    "path": [
+      8,
+      4
+    ],
+    "text": "START:메뉴"
+  },
+  {
+    "kind": "house_menu",
+    "path": [
+      9,
+      1
+    ],
+    "text": "마메트 하우스"
+  },
+  {
+    "kind": "house_menu",
+    "path": [
+      10,
+      1
+    ],
+    "text": "모메트 하우스"
+  },
+  {
+    "kind": "house_menu",
+    "path": [
+      10,
+      3
+    ],
+    "text": "완료"
+  },
+  {
+    "kind": "clear_up_badge",
+    "address": 2999424
+  },
+  {
+    "kind": "clear_up_badge",
+    "address": 2999744
+  },
+  {
+    "kind": "clear_up_badge",
+    "address": 3000032
+  },
+  {
+    "kind": "inventory_full",
+    "address": 2994520
+  },
+  {
+    "kind": "shop_panel",
+    "address": 17455868
+  },
+  {
+    "kind": "battle_effects",
+    "text": [
+      "퍽!",
+      "툭!",
+      "휙!",
+      "헛!",
+      "챙!",
+      "획득!"
+    ],
+    "sequence_address": 229080
+  },
+  {
+    "kind": "small_label",
+    "text": "SP 필살",
+    "address": 2712588
+  },
+  {
+    "kind": "small_label",
+    "text": "특가",
+    "address": 3003240
+  },
+  {
+    "kind": "small_label",
+    "text": "저주",
+    "address": 3003432
+  },
+  {
+    "kind": "small_label",
+    "text": "품절",
+    "address": 3003624
+  },
+  {
+    "kind": "small_label",
+    "text": "START:능력 설정",
+    "address": 3005588
+  },
+  {
+    "kind": "shop_stats",
+    "address": 3011352
+  },
+  {
+    "kind": "shop_stats",
+    "address": 3017636
+  },
+  {
+    "kind": "shop_stats",
+    "address": 3025776
+  },
+  {
+    "kind": "shop_stats",
+    "address": 3033212
+  },
+  {
+    "kind": "shop_stats",
+    "address": 3040648
+  },
+  {
+    "kind": "shop_stats",
+    "address": 3046260
+  },
+  {
+    "kind": "shop_stats",
+    "address": 3053152
+  },
+  {
+    "kind": "map_hud_name",
+    "text": "크로노아",
+    "tile": 40
+  },
+  {
+    "kind": "map_hud_name",
+    "text": "간츠",
+    "tile": 45
+  },
+  {
+    "kind": "map_hud_name",
+    "text": "판고",
+    "tile": 50
+  },
+  {
+    "kind": "footer",
+    "address": 2704652,
+    "text": "캐릭터 전환 / 능력 전환"
+  },
+  {
+    "kind": "footer",
+    "address": 2705644,
+    "text": "능력 전환 / 캐릭터 전환"
+  },
+  {
+    "kind": "footer",
+    "address": 2706636,
+    "text": "캐릭터 전환 / 소지품 정리"
+  },
+  {
+    "kind": "footer",
+    "address": 2707628,
+    "text": "소지품 정리 / 캐릭터 전환"
+  },
+  {
+    "kind": "footer",
+    "address": 2708620,
+    "text": "능력 설정 / 소지품 정리"
+  },
+  {
+    "kind": "footer",
+    "address": 2709612,
+    "text": "소지품 정리 / 능력 설정"
+  },
+  {
+    "kind": "character_footer",
+    "address": 2710604
+  },
+  {
+    "kind": "character_footer",
+    "address": 2711596
+  },
+  {
+    "kind": "inventory_panel",
+    "index": 0,
+    "address": 17459140
+  },
+  {
+    "kind": "inventory_panel",
+    "index": 1,
+    "address": 17466036
+  },
+  {
+    "kind": "inventory_tab",
+    "text": "무기",
+    "index": 43
+  },
+  {
+    "kind": "inventory_tab",
+    "text": "방어구",
+    "index": 44
+  },
+  {
+    "kind": "inventory_tab",
+    "text": "장신구",
+    "index": 45
+  },
+  {
+    "kind": "inventory_tab",
+    "text": "소비 아이템",
+    "index": 46
+  },
+  {
+    "kind": "inventory_tab",
+    "text": "중요 아이템",
+    "index": 47
+  },
+  {
+    "kind": "menu_button",
+    "text": "사용",
+    "address": 2988824
+  },
+  {
+    "kind": "menu_button",
+    "text": "버리기",
+    "address": 2989240
+  },
+  {
+    "kind": "menu_button",
+    "text": "예",
+    "address": 2989656
+  },
+  {
+    "kind": "menu_button",
+    "text": "아니오",
+    "address": 2990072
+  },
+  {
+    "kind": "menu_button",
+    "text": "타이틀로",
+    "address": 2990488
+  },
+  {
+    "kind": "menu_button",
+    "text": "지역 이동",
+    "address": 2991160
+  },
+  {
+    "kind": "menu_button",
+    "text": "비전 지도",
+    "address": 2991832
+  },
+  {
+    "kind": "menu_button",
+    "text": "히스토리아",
+    "address": 2992504
+  },
+  {
+    "kind": "menu_button",
+    "text": "능력 설정",
+    "address": 2993176
+  },
+  {
+    "kind": "menu_button",
+    "text": "저장",
+    "address": 2993848
+  },
+  {
+    "kind": "hud_name",
+    "text": "크로노아",
+    "addresses": [
+      2913980,
+      2914172,
+      2914332,
+      2914492,
+      2914588,
+      2914684
+    ]
+  },
+  {
+    "kind": "hud_name",
+    "text": "간츠",
+    "addresses": [
+      2914808,
+      2915000,
+      2915160,
+      2915320,
+      2915416,
+      2915512
+    ]
+  },
+  {
+    "kind": "hud_name",
+    "text": "판고",
+    "addresses": [
+      2915636,
+      2915828,
+      2915988,
+      2916148,
+      2916244,
+      2916340
+    ]
+  },
+  {
+    "kind": "save",
+    "text": "게임 데이터를 저장합니다.",
+    "address": 3107844
+  },
+  {
+    "kind": "save",
+    "text": "저장 중입니다.",
+    "address": 3108900
+  },
+  {
+    "kind": "save",
+    "text": "저장했습니다.",
+    "address": 3109572
+  },
+  {
+    "kind": "save",
+    "text": "저장 데이터를 지울까요?",
+    "address": 3110628
+  },
+  {
+    "kind": "save",
+    "text": "진행할까요?",
+    "address": 3111812
+  },
+  {
+    "kind": "save",
+    "text": "저장하지 못했습니다.",
+    "address": 3112484
+  },
+  {
+    "kind": "save",
+    "text": "저장 데이터가 손상됐습니다.",
+    "address": 3113540
+  },
+  {
+    "kind": "save",
+    "text": "저장 데이터를 지웠습니다.",
+    "address": 3114596
+  },
+  {
+    "kind": "save",
+    "text": "전원을 끄거나",
+    "address": 3115780
+  },
+  {
+    "kind": "save",
+    "text": "카트리지를 빼지",
+    "address": 3116836
+  },
+  {
+    "kind": "save",
+    "text": "마세요.",
+    "address": 3117892
+  },
+  {
+    "kind": "speaker",
+    "id": 0,
+    "text": "크로노아",
+    "address": 9040316
+  },
+  {
+    "kind": "speaker",
+    "id": 1,
+    "text": "간츠",
+    "address": 9040636
+  },
+  {
+    "kind": "speaker",
+    "id": 2,
+    "text": "판고",
+    "address": 9040956
+  },
+  {
+    "kind": "speaker",
+    "id": 3,
+    "text": "로로",
+    "address": 9041276
+  },
+  {
+    "kind": "speaker",
+    "id": 4,
+    "text": "포프카",
+    "address": 9041596
+  },
+  {
+    "kind": "speaker",
+    "id": 5,
+    "text": "대무녀",
+    "address": 9041916
+  },
+  {
+    "kind": "speaker",
+    "id": 6,
+    "text": "무녀",
+    "address": 9042236
+  },
+  {
+    "kind": "speaker",
+    "id": 7,
+    "text": "카랄",
+    "address": 9042556
+  },
+  {
+    "kind": "speaker",
+    "id": 8,
+    "text": "파멜라",
+    "address": 9042876
+  },
+  {
+    "kind": "speaker",
+    "id": 9,
+    "text": "치플",
+    "address": 9043196
+  },
+  {
+    "kind": "speaker",
+    "id": 10,
+    "text": "괴물",
+    "address": 9043516
+  },
+  {
+    "kind": "speaker",
+    "id": 11,
+    "text": "조커",
+    "address": 9043836
+  },
+  {
+    "kind": "speaker",
+    "id": 12,
+    "text": "쟝가",
+    "address": 9044156
+  },
+  {
+    "kind": "speaker",
+    "id": 13,
+    "text": "가렌",
+    "address": 9044476
+  },
+  {
+    "kind": "speaker",
+    "id": 14,
+    "text": "나하툼",
+    "address": 9044796
+  },
+  {
+    "kind": "speaker",
+    "id": 15,
+    "text": "???",
+    "address": 9045116
+  },
+  {
+    "kind": "speaker",
+    "id": 16,
+    "text": "바루",
+    "address": 9045436
+  },
+  {
+    "kind": "speaker",
+    "id": 17,
+    "text": "디그로",
+    "address": 9045756
+  },
+  {
+    "kind": "speaker",
+    "id": 18,
+    "text": "월장로",
+    "address": 9046076
+  },
+  {
+    "kind": "speaker",
+    "id": 19,
+    "text": "주민",
+    "address": 9046396
+  },
+  {
+    "kind": "speaker",
+    "id": 20,
+    "text": "마을사람",
+    "address": 9046716
+  },
+  {
+    "kind": "speaker",
+    "id": 21,
+    "text": "할아버지",
+    "address": 9047036
+  },
+  {
+    "kind": "speaker",
+    "id": 22,
+    "text": "괴물",
+    "address": 9047356
+  },
+  {
+    "kind": "speaker",
+    "id": 23,
+    "text": "괴물",
+    "address": 9047676
+  },
+  {
+    "kind": "speaker",
+    "id": 24,
+    "text": "볼크병",
+    "address": 9047996
+  },
+  {
+    "kind": "speaker",
+    "id": 25,
+    "text": "응가포코",
+    "address": 9048316
+  },
+  {
+    "kind": "speaker",
+    "id": 26,
+    "text": "로봇",
+    "address": 9048636
+  },
+  {
+    "kind": "speaker",
+    "id": 27,
+    "text": "괴물",
+    "address": 9048956
+  },
+  {
+    "kind": "speaker",
+    "id": 28,
+    "text": "포로",
+    "address": 9049276
+  },
+  {
+    "kind": "speaker",
+    "id": 29,
+    "text": "안내방송",
+    "address": 9049596
+  },
+  {
+    "kind": "speaker",
+    "id": 30,
+    "text": "달주민",
+    "address": 9049916
+  },
+  {
+    "kind": "speaker",
+    "id": 31,
+    "text": "폴리스",
+    "address": 9050236
+  },
+  {
+    "kind": "speaker",
+    "id": 32,
+    "text": "안나",
+    "address": 9050556
+  },
+  {
+    "kind": "speaker",
+    "id": 33,
+    "text": "푸치",
+    "address": 9050876
+  },
+  {
+    "kind": "speaker",
+    "id": 34,
+    "text": "스스무",
+    "address": 9051196
+  },
+  {
+    "kind": "speaker",
+    "id": 35,
+    "text": "바치",
+    "address": 9051516
+  },
+  {
+    "kind": "speaker",
+    "id": 36,
+    "text": "돈짱",
+    "address": 9051836
+  },
+  {
+    "kind": "speaker",
+    "id": 37,
+    "text": "캇짱",
+    "address": 9052156
+  },
+  {
+    "kind": "speaker",
+    "id": 38,
+    "text": "모시군",
+    "address": 9052476
+  },
+  {
+    "kind": "speaker",
+    "id": 39,
+    "text": "모지짱",
+    "address": 9052796
+  },
+  {
+    "kind": "speaker",
+    "id": 40,
+    "text": "모네짱",
+    "address": 9053116
+  },
+  {
+    "kind": "speaker",
+    "id": 41,
+    "text": "산드라",
+    "address": 9053436
+  },
+  {
+    "kind": "speaker",
+    "id": 42,
+    "text": "발키리",
+    "address": 9053756
+  },
+  {
+    "kind": "speaker",
+    "id": 43,
+    "text": "길",
+    "address": 9054076
+  },
+  {
+    "kind": "speaker",
+    "id": 44,
+    "text": "카이",
+    "address": 9054396
+  },
+  {
+    "kind": "speaker",
+    "id": 45,
+    "text": "아저씨",
+    "address": 9054716
+  },
+  {
+    "kind": "speaker",
+    "id": 46,
+    "text": "마메트",
+    "address": 9055036
+  },
+  {
+    "kind": "area",
+    "id": 0,
+    "text": "바람마을 벚꽃고개",
+    "address": 17471876
+  },
+  {
+    "kind": "area",
+    "id": 1,
+    "text": "바람마을 동쪽초원",
+    "address": 17473108
+  },
+  {
+    "kind": "area",
+    "id": 2,
+    "text": "클레아 사원",
+    "address": 17474340
+  },
+  {
+    "kind": "area",
+    "id": 3,
+    "text": "종의 언덕",
+    "address": 17475572
+  },
+  {
+    "kind": "area",
+    "id": 4,
+    "text": "종의 언덕 기슭",
+    "address": 17476804
+  },
+  {
+    "kind": "area",
+    "id": 5,
+    "text": "중앙 가도",
+    "address": 17478036
+  },
+  {
+    "kind": "area",
+    "id": 6,
+    "text": "간스톤 채석장",
+    "address": 17479268
+  },
+  {
+    "kind": "area",
+    "id": 7,
+    "text": "브리갈 동쪽가도",
+    "address": 17480500
+  },
+  {
+    "kind": "area",
+    "id": 8,
+    "text": "마그나 목장",
+    "address": 17481732
+  },
+  {
+    "kind": "area",
+    "id": 9,
+    "text": "크로노아의 집",
+    "address": 17482964
+  },
+  {
+    "kind": "area",
+    "id": 10,
+    "text": "마을 외곽",
+    "address": 17484196
+  },
+  {
+    "kind": "area",
+    "id": 11,
+    "text": "자그케틀 국경",
+    "address": 17485428
+  },
+  {
+    "kind": "area",
+    "id": 12,
+    "text": "자그케틀 해안",
+    "address": 17486660
+  },
+  {
+    "kind": "area",
+    "id": 13,
+    "text": "수상 시장",
+    "address": 17487892
+  },
+  {
+    "kind": "area",
+    "id": 14,
+    "text": "자그케틀 곶",
+    "address": 17489124
+  },
+  {
+    "kind": "area",
+    "id": 15,
+    "text": "자그케틀 만",
+    "address": 17490356
+  },
+  {
+    "kind": "area",
+    "id": 16,
+    "text": "파멜라의 둥지",
+    "address": 17491588
+  },
+  {
+    "kind": "area",
+    "id": 17,
+    "text": "자그레네 해협",
+    "address": 17492820
+  },
+  {
+    "kind": "area",
+    "id": 18,
+    "text": "문즈 마을",
+    "address": 17494052
+  },
+  {
+    "kind": "area",
+    "id": 19,
+    "text": "문즈 유적 서문",
+    "address": 17495284
+  },
+  {
+    "kind": "area",
+    "id": 20,
+    "text": "문즈 유적 동문",
+    "address": 17496516
+  },
+  {
+    "kind": "area",
+    "id": 21,
+    "text": "문즈 유적 감옥",
+    "address": 17497748
+  },
+  {
+    "kind": "area",
+    "id": 22,
+    "text": "포로의 피라미드",
+    "address": 17498980
+  },
+  {
+    "kind": "area",
+    "id": 23,
+    "text": "죽음의 덫 피라미드",
+    "address": 17500212
+  },
+  {
+    "kind": "area",
+    "id": 24,
+    "text": "수수께끼 피라미드",
+    "address": 17501444
+  },
+  {
+    "kind": "area",
+    "id": 25,
+    "text": "천공사원 기슭",
+    "address": 17502676
+  },
+  {
+    "kind": "area",
+    "id": 26,
+    "text": "천공사원",
+    "address": 17503908
+  },
+  {
+    "kind": "area",
+    "id": 27,
+    "text": "천공사원 정원",
+    "address": 17505140
+  },
+  {
+    "kind": "area",
+    "id": 28,
+    "text": "천공사원 공중운하",
+    "address": 17506372
+  },
+  {
+    "kind": "area",
+    "id": 29,
+    "text": "천공사원 도서관",
+    "address": 17507604
+  },
+  {
+    "kind": "area",
+    "id": 30,
+    "text": "천공사원 안쪽",
+    "address": 17508836
+  },
+  {
+    "kind": "area",
+    "id": 31,
+    "text": "천공사원 성역",
+    "address": 17510068
+  },
+  {
+    "kind": "area",
+    "id": 32,
+    "text": "볼크 공장지대",
+    "address": 17511300
+  },
+  {
+    "kind": "area",
+    "id": 33,
+    "text": "볼크 공장 A구역",
+    "address": 17512532
+  },
+  {
+    "kind": "area",
+    "id": 34,
+    "text": "볼크 공장 B구역",
+    "address": 17513764
+  },
+  {
+    "kind": "area",
+    "id": 35,
+    "text": "볼크 공장 C구역",
+    "address": 17514996
+  },
+  {
+    "kind": "area",
+    "id": 36,
+    "text": "볼크군 로켓기지",
+    "address": 17516228
+  },
+  {
+    "kind": "area",
+    "id": 37,
+    "text": "우주",
+    "address": 17517460
+  },
+  {
+    "kind": "area",
+    "id": 38,
+    "text": "달 표면",
+    "address": 17518692
+  },
+  {
+    "kind": "area",
+    "id": 39,
+    "text": "월면인의 마을",
+    "address": 17519924
+  },
+  {
+    "kind": "area",
+    "id": 40,
+    "text": "월면 돔",
+    "address": 17521156
+  },
+  {
+    "kind": "area",
+    "id": 41,
+    "text": "루나 베이스",
+    "address": 17522388
+  },
+  {
+    "kind": "area",
+    "id": 42,
+    "text": "입구",
+    "address": 17523620
+  },
+  {
+    "kind": "area",
+    "id": 43,
+    "text": "의무실",
+    "address": 17524852
+  },
+  {
+    "kind": "area",
+    "id": 44,
+    "text": "순찰 관제센터",
+    "address": 17526084
+  },
+  {
+    "kind": "area",
+    "id": 45,
+    "text": "코어 구역",
+    "address": 17527316
+  },
+  {
+    "kind": "area",
+    "id": 46,
+    "text": "꿈의 밑바닥",
+    "address": 17528548
+  },
+  {
+    "kind": "area",
+    "id": 47,
+    "text": "가렌의 방",
+    "address": 17529780
+  },
+  {
+    "kind": "area",
+    "id": 48,
+    "text": "샛길",
+    "address": 17531012
+  },
+  {
+    "kind": "area",
+    "id": 49,
+    "text": "나하트의 어둠",
+    "address": 17532244
+  },
+  {
+    "kind": "area",
+    "id": 50,
+    "text": "자작나무 1번가",
+    "address": 17533476
+  },
+  {
+    "kind": "area",
+    "id": 51,
+    "text": "엉겅퀴 광장",
+    "address": 17534708
+  },
+  {
+    "kind": "area",
+    "id": 52,
+    "text": "큰길",
+    "address": 17535940
+  },
+  {
+    "kind": "area",
+    "id": 53,
+    "text": "자그케틀 항구",
+    "address": 17537172
+  },
+  {
+    "kind": "area",
+    "id": 54,
+    "text": "발굴 캠프",
+    "address": 17538404
+  },
+  {
+    "kind": "area",
+    "id": 55,
+    "text": "천공사원 내전",
+    "address": 17539636
+  },
+  {
+    "kind": "area",
+    "id": 56,
+    "text": "새벽 광장",
+    "address": 17540868
+  },
+  {
+    "kind": "area",
+    "id": 57,
+    "text": "월면인 숙소",
+    "address": 17542100
+  }
+]

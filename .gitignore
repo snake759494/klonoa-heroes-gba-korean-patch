@@ -1,0 +1,13 @@
+*.gba
+*.sav
+*.sgm
+*.exe
+*.dll
+*.bdf
+*.ttf
+*.otf
+*.xdelta
+__pycache__/
+work/fonts/
+work/glyphmap.json
+work/validation/
